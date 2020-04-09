@@ -5,7 +5,8 @@
 
 .container {
 	max-width: 950px;
-	margin: 0 auto;
+   margin: 0 auto;
+   padding: 0 10px;
 }
 
 .title {
@@ -22,3 +23,5 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'media/promo_media';
+@import 'media/header_media';
