@@ -9,9 +9,9 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<div class="promo">
+	<div class="promo"> <!-- Секция 1 -->
 		<div class="container">
-			<header class="header">
+			<header class="header"> <!-- menu -->
 				<a href="#" class="header__logo">
 					<img src="img/logo/logo.png" alt="logo">
 				</a>
@@ -23,7 +23,7 @@
 					<a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
 					<button class="button header__button-media">заказать звонок</button>
 				</div>
-			</header>
+			</header> <!-- /menu/ -->
 
 			<div class="promo__wrapper">
 				<h1 class="promo__header">Подбор пульсометра</h1>
@@ -34,7 +34,7 @@
 						<img src="icons/promo_icons/1.png" alt="timer">
 						Время подбора: 
 						<br>10 минут
-               </div>
+					</div>
 					<div class="promo__icon">
 						<img src="icons/promo_icons/2.png" alt="hand-car">
 						Бесплатная
@@ -53,46 +53,66 @@
 				</div>
 			</div>
 		</div>
-   </div>
-   <div class="advantages">
-      <h2 class="title">
-         Наши преимущества
-      </h2>
-      <div class="container">
-         <div class="advantages__wrapper">
-            <div class="advantages__item">
-               <img src="img/advantages/cup.jpg" alt="cup">
-               <div class="advantages__title">
-                  Делимся опытом
-               </div>
-               <div class="advantages__descr">
-                  Наши сотрудники всегда готовы поделиться своим опытом, 
-                  так как они бегают полумарафоны, переплыли Босфор, готовятся к
-                  соревнованиям по триатлону!
-               </div>
-            </div>
-            <div class="advantages__item">
-               <img src="img/advantages/heart.jpg" alt="heart">
-               <div class="advantages__title">
-                  Заботимся о здоровье
-               </div>
-               <div class="advantages__descr">
-                  Мы работаем для того,
-                  чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
-               </div>
-            </div>
-            <div class="advantages__item">
-               <img src="img/advantages/shoe.jpg" alt="shoes">
-               <div class="advantages__title">
-                  Учим бегать
-               </div>
-               <div class="advantages__descr">
-                  Помогаем с обучением правильной технике бега!
-                  Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+	</div> <!-- /секция 1/ -->
+	
+	<div class="advantages"> <!-- секция 2 -->
+		<h2 class="title">
+			Наши преимущества
+		</h2>
+		<div class="container">
+			<div class="advantages__wrapper">
+				<div class="advantages__item">
+					<img src="img/advantages/cup.jpg" alt="cup">
+					<div class="advantages__title">
+						Делимся опытом
+					</div>
+					<div class="advantages__descr">
+						Наши сотрудники всегда готовы поделиться своим опытом, 
+						так как они бегают полумарафоны, переплыли Босфор, готовятся к
+						соревнованиям по триатлону!
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="img/advantages/heart.jpg" alt="heart">
+					<div class="advantages__title">
+						Заботимся о здоровье
+					</div>
+					<div class="advantages__descr">
+						Мы работаем для того,
+						чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="img/advantages/shoe.jpg" alt="shoes">
+					<div class="advantages__title">
+						Учим бегать
+					</div>
+					<div class="advantages__descr">
+						Помогаем с обучением правильной технике бега!
+						Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /секция 2/ -->
+
+	<div class="consultation"> <!-- секция 3 -->
+		<div class="container">
+			<h2 class="title title_left">
+				Получите бесплатную консультацию<br>
+				по подбору пульсометра
+			</h2>
+			<div class="consultation__descr">
+				Просто заполните форму заявки<br>
+				и мы перезвоним вам в течении 10 минут
+			</div>
+			<form class="feed-form" action="#">
+				<input name="name" required placeholder="Ваше имя" type="text">
+				<input name="phone" required placeholder="Ваш телефон" type="number">
+				<input name="email" required placeholder="Ваш e-mail" type="email">
+				<button class="button button_submit" type="submit">Заказать консультацию</button>
+			</form>
+		</div>
+	</div> <!-- /секция 3/ -->
 </body>
 </html>

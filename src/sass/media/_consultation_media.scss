@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+   .consultation {
+      .title_left {
+         font-size: 30px;
+      }
+      &__descr {
+         margin-top: 60px;
+      }
+   }
+}
+@media (max-width: 767px) {
+   .consultation {
+      padding: 50px 0 70px 0;
+      .title_left {
+         text-align: center;
+      }
+      &__descr {
+         text-align: center;
+      }
+      .feed-form {
+         margin: 0 auto;
+         margin-top: 30px;
+         width: 400px;
+      }
+   }
+}
+@media (max-width: 575px) {
+   .consultation {
+      min-height: 400px;
+      padding: 50px 0 70px 0;
+      &__descr {
+         margin-top: 50px;
+         font-size: 18px;
+         line-height: 25px;
+         text-align: left;
+      }
+      .feed-form {
+         width: 100%;
+      }
+      .title_left {
+         font-size: 20px;
+      }
+   }
+}

@@ -9,25 +9,15 @@
    padding: 0 10px;
 }
 
-.title {
-   margin-bottom: 0;
-   font-size: 30px;
-   line-height: 25px;
-   font-weight: 700;
-   color: #0d0d0d;
-   text-transform: uppercase;
-   text-align: center;
-}
-@media (max-width: 575px) {
-   .title {
-      line-height: 35px;
-   }
-}
-
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/forms';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'media/container_media';
 @import 'media/promo_media';
 @import 'media/header_media';
 @import 'media/advantages_media';
+@import 'media/consultation_media';
