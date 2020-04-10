@@ -18,6 +18,11 @@
    text-transform: uppercase;
    text-align: center;
 }
+@media (max-width: 575px) {
+   .title {
+      line-height: 35px;
+   }
+}
 
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -25,3 +30,4 @@
 @import 'blocks/advantages';
 @import 'media/promo_media';
 @import 'media/header_media';
+@import 'media/advantages_media';
