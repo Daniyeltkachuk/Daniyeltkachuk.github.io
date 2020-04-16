@@ -4,6 +4,7 @@
 }
 
 .container {
+   position: relative;
 	max-width: 950px;
    margin: 0 auto;
    padding: 0 10px;
@@ -22,3 +23,4 @@
 @import 'media/header_media';
 @import 'media/advantages_media';
 @import 'media/consultation_media';
+@import 'media/carousel_media';

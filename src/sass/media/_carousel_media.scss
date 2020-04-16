@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+   .carousel {
+      .prev {
+         left: 0;
+      }
+      .next {
+         right: 0;
+      }
+      .tns-nav {
+         display: none;
+      }
+   }
+}
+@media (max-width: 991px) {
+   .carousel {
+      padding: 50px 0;
+      img {
+         width: 600px;
+      }
+      .prev {
+         left: 30px;
+      }
+      .next {
+         right: 30px;
+      }
+   }
+}
+@media (max-width: 767px) {
+   .carousel {
+      img {
+         width: 450px;
+      }
+      .prev, .next {
+         img {
+            width: 25px;
+            height: 40px;
+         }
+      }
+      .prev {
+         left: 25px;
+      }
+      .next {
+         right: 25px;
+      }
+   }
+}
+@media (max-width: 575px) {
+   .carousel {
+      padding: 30px 0;
+      img {
+         width: 100%;
+      };
+      .prev_hidden, .next_hidden {
+        display: none;
+      }
+      .tns-nav {
+         display: flex;
+         justify-content: center;
+      }
+   }
+}
