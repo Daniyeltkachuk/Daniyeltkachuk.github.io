@@ -1,5 +1,5 @@
 .carousel {
-   padding: 80px 0 80px 0;
+   padding: 80px 0 40px 0;
    &__inner {
       position: relative;
       width: 750px;
@@ -37,7 +37,7 @@
          border-radius: 100%;
          background-color: $main-color;
          opacity: .5;
-         margin-right: 5px;
+         margin: 0 5px;
       }
       .tns-nav-active {
          background-color: $main-color;
