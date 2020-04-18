@@ -12,3 +12,33 @@
       }
    }
 }
+@media (max-width: 575px) {
+   .consultation {
+      .container {
+         max-width: 290px;
+      }
+   }
+}
+
+@media (max-width: 1200px) {
+   .feedback {
+      .container {
+         max-width: 850px;
+         margin: 0 auto;
+      }
+   }
+}
+@media (max-width: 991px) {
+   .feedback {
+      .container {
+         max-width: 700px;
+      }
+   }
+}
+@media (max-width: 575px) {
+   .feedback {
+      .container {
+         max-width: 250px;
+      }
+   }
+}
