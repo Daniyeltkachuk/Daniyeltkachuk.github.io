@@ -38,5 +38,13 @@
          width: 230px;
          margin-bottom: 10px;
       }
+      &-item {
+         &__content {
+            transform: translateX(-110%);
+            &_active {
+               transform: translateX(0%);
+            }
+         }
+      }
    }
 }
