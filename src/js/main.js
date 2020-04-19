@@ -50,13 +50,13 @@ $(document).ready(function() {
       $(this).on('click', function() {
          $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
          $('.overlay, #order').fadeIn('slow');
-      });
+      })
    });
 
 
    //Валидация форм
 
-   function valideForms(form) {
+   function validateForms(form) {
       $(form).validate({
          rules: {
             name: "required",
@@ -77,25 +77,26 @@ $(document).ready(function() {
       });
    };
 
-   valideForms('#consultation-form');
-   valideForms('#consultation form');
-   valideForms('#order form');
+   validateForms('#consultation-form');
+   validateForms('#consultation form');
+   validateForms('#order form');
 
 
    // Mask of phone 
 
    $('input[name=phone]').mask("+375 (99) 999-99-99");
 
-   $('form').submit(function(e) {
+   $('form').submit(function (e) {
       e.preventDefault();
       $.ajax({
          type: "POST",
          url: "mailer/smart.php",
          data: $(this).serialize()
-      }).done(function() {
+      }).done(function () {
          $(this).find("input").val("");
          $('#consultation, #order').fadeOut();
          $('.overlay, #thanks').fadeIn('slow');
+
          $('form').trigger('reset');
       });
       return false;
