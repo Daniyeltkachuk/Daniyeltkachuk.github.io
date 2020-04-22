@@ -117,4 +117,7 @@ $(document).ready(function() {
       return false;
    });
 
+   //Animated js
+
+   new WOW().init();
 });
